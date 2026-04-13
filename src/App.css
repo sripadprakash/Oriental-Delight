@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-red: #B22222;
+  --brand-gold: #D4AF37;
+  --brand-black: #1A1A1A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-brand-black text-white font-sans antialiased;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.text-gold {
+  color: var(--brand-gold);
+}
+
+.bg-gold {
+  background-color: var(--brand-gold);
+}
+
+.border-gold {
+  border-color: var(--brand-gold);
+}
+
+/* Custom styles for 3D canvas container */
+#canvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.section-padding {
+  @apply py-12 md:py-20 px-6 md:px-12 lg:px-24;
+}
+
+.glass-morphism {
+  background: rgba(26, 26, 26, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.menu-card {
+  @apply bg-zinc-900/50 p-6 rounded-lg border border-zinc-800 transition-all duration-300 hover:border-brand-gold/50;
+}
+
+.logo-container {
+  @apply relative flex items-center justify-center w-12 h-12 bg-brand-red rounded-full text-white font-bold text-2xl overflow-hidden;
+  box-shadow: 0 0 15px rgba(178, 34, 34, 0.5);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
