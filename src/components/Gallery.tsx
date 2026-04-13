@@ -92,11 +92,6 @@ export default function Gallery() {
                   <Maximize2 size={24} className="text-brand-gold" />
                 </div>
               </div>
-
-              {/* Technical Scanline Overlay */}
-              <div className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-40 transition-opacity duration-300 overflow-hidden">
-                <div className="absolute top-0 left-0 w-full h-[2px] bg-brand-gold shadow-[0_0_8px_rgba(212,175,55,0.8)] animate-scanline"></div>
-              </div>
             </motion.div>
           ))}
         </div>

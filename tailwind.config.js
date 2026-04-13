@@ -17,13 +17,8 @@ export default {
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
-        'scanline': 'scanline 4s linear infinite',
       },
       keyframes: {
-        scanline: {
-          '0%': { top: '0%' },
-          '100%': { top: '100%' },
-        }
       }
     },
   },
