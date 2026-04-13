@@ -23,16 +23,10 @@ export default function Hero() {
             Beleef de authentieke smaken van de Kantonese keuken in een sfeervolle, moderne setting in hartje Emmen.
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <a 
-              href="#menu" 
-              className="w-full sm:w-auto px-10 py-4 bg-brand-gold text-brand-black font-bold uppercase tracking-widest text-sm rounded-sm hover:bg-yellow-600 transition-all shadow-xl hover:shadow-brand-gold/20"
-            >
-              Bekijk het Menu
-            </a>
+          <div className="flex items-center justify-center">
             <a 
               href="#gallery" 
-              className="w-full sm:w-auto px-10 py-4 border border-brand-gold/40 text-brand-gold font-bold uppercase tracking-widest text-sm rounded-sm hover:bg-brand-gold/10 transition-all"
+              className="w-full sm:w-auto px-10 py-4 border border-brand-gold/40 text-brand-gold font-bold uppercase tracking-widest text-sm rounded-sm hover:bg-brand-gold/10 transition-all text-center"
             >
               Ontdek Meer
             </a>
