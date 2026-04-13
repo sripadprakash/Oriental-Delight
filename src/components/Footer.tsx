@@ -119,7 +119,7 @@ export default function Footer() {
                 className="h-32 overflow-hidden border-b border-zinc-800/50 block group/map"
               >
                 <img 
-                  src="/Map.jpg" 
+                  src="./Map.jpg" 
                   alt="Oriental Delight Location" 
                   className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-100"
                 />

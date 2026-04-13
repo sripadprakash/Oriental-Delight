@@ -43,7 +43,7 @@ export default function About() {
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden border border-brand-gold/20 shadow-2xl relative z-10 bg-zinc-900">
               <img 
-                src="/Oriental Delight.jpeg" 
+                src="./Oriental Delight.jpeg" 
                 alt="Oriental Delight Restaurant Interior" 
                 className="w-full h-full object-cover"
               />

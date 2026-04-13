@@ -3,16 +3,16 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Maximize2, Camera, X, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const galleryImages = [
-  { src: '/gallery/WhatsApp Image 2026-04-13 at 20.29.20 (1).jpeg', size: 'large' }, // 0
-  { src: '/gallery/WhatsApp Image 2026-04-13 at 20.29.20.jpeg', size: 'small' },    // 1
-  { src: '/gallery/WhatsApp Image 2026-04-13 at 20.29.21 (1).jpeg', size: 'small' }, // 2
-  { src: '/gallery/WhatsApp Image 2026-04-13 at 20.29.21.jpeg', size: 'medium' },   // 3
-  { src: '/gallery/WhatsApp Image 2026-04-13 at 20.29.22 (1).jpeg', size: 'small' }, // 4
-  { src: '/gallery/WhatsApp Image 2026-04-13 at 20.29.22 (2).jpeg', size: 'small' }, // 5
-  { src: '/gallery/WhatsApp Image 2026-04-13 at 20.29.22.jpeg', size: 'wide' },     // 6
-  { src: '/gallery/WhatsApp Image 2026-04-13 at 20.29.23 (1).jpeg', size: 'small' }, // 7
-  { src: '/gallery/WhatsApp Image 2026-04-13 at 20.29.23.jpeg', size: 'tall' },     // 8
-  { src: '/gallery/WhatsApp Image 2026-04-13 at 20.29.24.jpeg', size: 'small' },    // 9
+  { src: './gallery/WhatsApp Image 2026-04-13 at 20.29.20 (1).jpeg', size: 'large' }, // 0
+  { src: './gallery/WhatsApp Image 2026-04-13 at 20.29.20.jpeg', size: 'small' },    // 1
+  { src: './gallery/WhatsApp Image 2026-04-13 at 20.29.21 (1).jpeg', size: 'small' }, // 2
+  { src: './gallery/WhatsApp Image 2026-04-13 at 20.29.21.jpeg', size: 'medium' },   // 3
+  { src: './gallery/WhatsApp Image 2026-04-13 at 20.29.22 (1).jpeg', size: 'small' }, // 4
+  { src: './gallery/WhatsApp Image 2026-04-13 at 20.29.22 (2).jpeg', size: 'small' }, // 5
+  { src: './gallery/WhatsApp Image 2026-04-13 at 20.29.22.jpeg', size: 'wide' },     // 6
+  { src: './gallery/WhatsApp Image 2026-04-13 at 20.29.23 (1).jpeg', size: 'small' }, // 7
+  { src: './gallery/WhatsApp Image 2026-04-13 at 20.29.23.jpeg', size: 'tall' },     // 8
+  { src: './gallery/WhatsApp Image 2026-04-13 at 20.29.24.jpeg', size: 'small' },    // 9
 ]
 
 export default function Gallery() {
