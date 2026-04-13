@@ -1,3 +1,4 @@
+import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -6,7 +7,7 @@ import Reviews from './components/Reviews'
 import Footer from './components/Footer'
 import Background3D from './components/Background3D'
 
-function App() {
+export default function App() {
   return (
     <div className="relative">
       <Background3D />
@@ -23,5 +24,3 @@ function App() {
     </div>
   )
 }
-
-export default App
